@@ -5,7 +5,7 @@ import Banner from "./components/Banner/Banner";
 import "./App.css";
 function App() {
   return (
-    <>
+    <div className="app">
       <Banner />
 
       <Rows
@@ -20,7 +20,7 @@ function App() {
       <Rows title="Horror Movies" fetchUrl={request.fetchHorrorMovies} />
       <Rows title="Romance Movies" fetchUrl={request.fetchRomanceMovies} />
       <Rows title="Documentaries" fetchUrl={request.fetchDocumentaries} />
-    </>
+    </div>
   );
 }
 
