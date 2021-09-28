@@ -3,9 +3,12 @@ import Rows from "./components/rows/Rows";
 import request from "./request";
 import Banner from "./components/Banner/Banner";
 import "./App.css";
+import Navbar from "./components/Navabar/Navbar";
+
 function App() {
   return (
     <div className="app">
+      <Navbar />
       <Banner />
 
       <Rows
